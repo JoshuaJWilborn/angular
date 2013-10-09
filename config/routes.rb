@@ -1,3 +1,4 @@
 Angular::Application.routes.draw do
-  root to: 'public/index.html'
+
+  get "/" => 'home#index'
 end
